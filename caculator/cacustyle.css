@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C3DBD9;
+}
+
+.calculator{
+    width: 287px;
+    border:1px solid #333;
+    background-color:#ccc;
+    padding:5px;
+}
+
+.caculator form{
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    grid-auto-rows: 65px;
+    grid-gap: 5px;
+}
+
+.calculator form input{
+    border:2px solid #333;
+    cursor: pointer;
+}
+
+.calculator form input:hover{
+    box-shadow: 1px 1px 2px #333;
+}
